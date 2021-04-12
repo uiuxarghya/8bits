@@ -1,0 +1,51 @@
+.logo {
+  float: left;
+  width: 73px;
+  height: 30px;
+  margin: 16px 6px 16px 0;
+  background-image: url(../public/8bits.svg);
+}
+.name {
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  min-height: calc(100vh - 64px - 70px);
+}
+
+.shortner {
+  width: 100%;
+  background: #fff;
+  padding: 24px 20px;
+  border-radius: 6px;
+}
+
+.linkField {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.linkFieldInput {
+  flex: 100%;
+  margin-right: 5px;
+}
+
+.linkFieldButton {
+  width: 120px;
+}
+
+.footer {
+  background: #001529;
+  text-align: center;
+  color: #fff;
+}
+.link {
+  color: #00dd9b;
+}
+.link:hover {
+  color:#ff7875;
+}
