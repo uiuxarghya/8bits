@@ -12,7 +12,7 @@
   </p>
   <p>
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/uiuxarghya/8bits)]()
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/uiuxarghya/8bits)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2F8bits.vercel.app&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAZCAYAAADqrKTxAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADDSURBVHgB7ZRNDoIwEIXflHoPiInXEE+iJsbEW+gpiLgQT0K8Bv7APaCtpQV34wKjK96ieWnfl0wyMyX0KtIVAjqDkzJrzLZZawUGiHBLYm9FDBJzNqnNBaSq1koImXd8hulmwUL3YwaSy8HljdA3kO1TEzlXBzEeackmFQ6YNHsPRbvKXRapPShkIRj0WYky8cHaPVT4pC4roaUvKXBjFLFAO0Zaui0Ym/t3yPYJfsWNDvE85WxS6asdCpel9+Wvv7AXkbg7KN08dlIAAAAASUVORK5CYII=)](https://8bits.vercel.app)
 
 <p>
