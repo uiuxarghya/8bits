@@ -16,6 +16,12 @@
   min-height: calc(100vh - 64px - 70px);
 }
 
+@media only screen and (max-width: 400px) {
+  .content {
+    padding: 0 20px;
+  }
+}
+
 .shortner {
   width: 100%;
   background: #fff;
@@ -32,10 +38,15 @@
 .linkFieldInput {
   flex: 100%;
   margin-right: 5px;
+  border-radius: 20px;
 }
 
 .linkFieldButton {
   width: 120px;
+}
+
+.submitButton:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 .footer {
@@ -47,5 +58,5 @@
   color: #00dd9b;
 }
 .link:hover {
-  color:#ff7875;
+  color: #ff7875;
 }
