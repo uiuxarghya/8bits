@@ -88,4 +88,4 @@ See the [`CHANGELOG`](CHANGELOG.md) file for details.
 
 ## **License**
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [`LICENSE`](LICENSE) file for details.
+This project is licensed under the [Apache-2.0 License](https://opensource.org/licenses/Apache-2.0) - see the [`LICENSE`](LICENSE) file for details.
