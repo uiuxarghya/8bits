@@ -8,7 +8,7 @@
     <b><h2>8bits LInk Shortener - A simple serverless url shortener.</h2></b>
   </p>
   <p>
-     <i>Helps you shorten long links for easy sharing. 
+     <i>Helps you shorten long links for easy sharing.
   </p>
   <p>
 
@@ -32,7 +32,7 @@
 
 ## **About**
 
-### A simple serverless url shortener made with [Mongo DB](https://mongodb.com) and [Vercel](https://vercel.com).
+### A simple serverless url shortener made with [Mongo DB](https://mongodb.com) and [Vercel](https://vercel.com)
 
 </div>
 
