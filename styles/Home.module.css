@@ -5,6 +5,7 @@
   margin: 16px 6px 16px 0;
   background-image: url(../public/8bits.svg);
 }
+
 .name {
   color: #fff;
 }
@@ -45,10 +46,33 @@
   width: 120px;
 }
 
+.submitButton {
+  border-radius: 5px;
+  font-weight: 700;
+}
+
 .submitButton:hover {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
+.copyButton {
+  background-color: #4ade80;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #86efac;
+}
+
+.copyButton:hover {
+  background-color: #86efac;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #86efac;
+}
+
+.copyButtonText {
+  color: black;
+  font-weight: 500;
+}
 .footer {
   background: #001529;
   text-align: center;
