@@ -1,1 +1,14 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
+
+@import url("https://rsms.me/inter/inter.css");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-display: "swap";
+}
+
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "Inter var", sans-serif;
+  }
+}
