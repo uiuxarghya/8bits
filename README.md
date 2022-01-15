@@ -8,7 +8,7 @@
     <b><h2>8bits LInk Shortener - A simple serverless url shortener.</h2></b>
   </p>
   <p>
-     <i>Helps you shorten long links for easy sharing. 
+     <i>Helps you shorten long links for easy sharing.
   </p>
   <p>
 
@@ -32,17 +32,16 @@
 
 ## **About**
 
-### A simple serverless url shortener made with [Mongo DB](https://mongodb.com) and [Vercel](https://vercel.com).
+### A simple serverless url shortener made with [Mongo DB](https://mongodb.com) and [Vercel](https://vercel.com)
 
 </div>
-
 
 ## **Demo**
 
 [8bits.vercel.app](https://8bits.vercel.app)
 
-
 ## [**Documentation**](https://github.com/uiuxarghya/8bits/wiki)
+
 Check the detailed documentation at our [wiki](https://github.com/uiuxarghya/8bits/wiki) page.
 
 ## **Features**
@@ -51,11 +50,9 @@ Check the detailed documentation at our [wiki](https://github.com/uiuxarghya/8bi
 
 ⚡️ **Fast:** Paste long url and get/copy short url in less than a second.
 
-
 ## **Developing**
 
 1. Create a `.env.local` file repository's root directory with your own keys.
-  
 
 _Sample keys only works with the [production build](https://8bits.vercel.app)._
 
@@ -71,10 +68,10 @@ _Sample keys only works with the [production build](https://8bits.vercel.app)._
 4. Open development site by going to [`http://localhost:3000`](http://localhost:3000) in your browser.
 
 ## **Deploy now with Vercel**
+
 <p/>
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&env=VERCEL_URL,MONGODB_URI&project-name=8bits&demo-title=8bits&demo-description=A%20simple%20serverless%20url%20shortener%20made%20with%20MongoDB%20and%20Vercel.&demo-url=https%3A%2F%2F8bits.vercel.app%2F)
-
 
 ## **Changelog**
 

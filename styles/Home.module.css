@@ -5,6 +5,7 @@
   margin: 16px 6px 16px 0;
   background-image: url(../public/8bits.svg);
 }
+
 .name {
   color: #fff;
 }
@@ -32,7 +33,6 @@
 .linkField {
   display: flex;
   width: 100%;
-  border-radius: 10px;
 }
 
 .linkFieldInput {
@@ -45,8 +45,38 @@
   width: 120px;
 }
 
+.submitButton {
+  border-radius: 5px;
+  font-weight: 700;
+}
+
 .submitButton:hover {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.copyButton {
+  background-color: #4ade80;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #86efac;
+  padding: 3px 10px;
+  display: inline-flex;
+  font-weight: 600;
+}
+
+.copyButton:hover {
+  background-color: #86efac;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #86efac;
+  display: inline-flex;
+}
+
+.copyIcon {
+  height: 22px;
+  width: 22px;
+  padding: 2px;
+  margin-right: 2px;
 }
 
 .footer {
@@ -59,4 +89,27 @@
 }
 .link:hover {
   color: #ff7875;
+}
+
+@media (min-width: 750px) {
+  .menubtn {
+    margin-top: 20px;
+    display: none;
+  }
+  .bigmenu {
+    margin-top: 10px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 750px) {
+  .bigmenu {
+    margin-top: 10px;
+    display: none;
+  }
+  .menubtn {
+    position: absolute;
+    margin-top: 20px;
+    right: 20px;
+  }
 }

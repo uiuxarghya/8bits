@@ -3,6 +3,7 @@ import axios, { AxiosError } from "axios";
 import Head from "next/head";
 import { useState } from "react";
 import styles from "../styles/Home.module.css";
+import { ClipboardCopy } from "../components/ClipboardCopy";
 
 const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
@@ -110,6 +111,7 @@ export default function Home() {
               showIcon
               message={message}
               type={status as "error" | "success"}
+              action={<ClipboardCopy copyText={message} />}
             />
           )}
         </div>
