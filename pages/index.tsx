@@ -4,6 +4,7 @@ import Head from "next/head";
 import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import { ClipboardCopy } from "../components/ClipboardCopy";
+import About from "../components/About";
 
 const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
@@ -58,10 +59,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header>
-        <a href="/">
-          <div className={styles.logo} />
-          <h1 className={styles.name}>Link Shortener</h1>
-        </a>
+        <nav className={styles.nav} >
+          <a href="/">
+            <div className={styles.logo} />
+            <h1 className={styles.name}>Link Shortener</h1>
+          </a>
+          <div><About /></div>
+        </nav>
       </Header>
       <Content className={styles.content}>
         <div className={styles.shortner}>
