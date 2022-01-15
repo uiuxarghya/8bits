@@ -132,7 +132,7 @@ export default function Home() {
         >
           @uiuxarghya
         </a>{" "}
-        | 8bits Link Shortener &copy; 2021
+        | 8bits Link Shortener &copy; 2020 - {new Date().getFullYear()}. All rights reserved.
       </Footer>
     </Layout>
   );
