@@ -8,7 +8,7 @@
     <b><h2>8bits LInk Shortener - A simple serverless url shortener.</h2></b>
   </p>
   <p>
-     <i>Helps you shorten long links for easy sharing.
+     Helps you shorten long links for easy sharing.
   </p>
   <p>
 
@@ -28,13 +28,11 @@
 </div>
 
 <br/>
-<div>
 
 ## **About**
 
-### A simple serverless url shortener made with [Mongo DB](https://mongodb.com) and [Vercel](https://vercel.com)
+A simple serverless url shortener made with [Mongo DB](https://mongodb.com) and [Vercel](https://vercel.com)
 
-</div>
 
 ## **Demo**
 
@@ -54,7 +52,7 @@ Check the detailed documentation at our [wiki](https://github.com/uiuxarghya/8bi
 
 1. Create a `.env.local` file repository's root directory with your own keys.
 
-_Sample keys only works with the [production build](https://8bits.vercel.app)._
+Sample keys only works with the [production build](https://8bits.vercel.app).
 
 ### Browser based development environment
 
@@ -81,7 +79,7 @@ See the [`CHANGELOG`](CHANGELOG.md) file for details.
 
 ### Lead Developers
 
-- **[Arghya Ghosh](https://github.com/uiuxarghya)** - _Author_
+- **[Arghya Ghosh](https://github.com/uiuxarghya)** - Author
 
 ## **License**
 
