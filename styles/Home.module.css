@@ -33,7 +33,6 @@
 .linkField {
   display: flex;
   width: 100%;
-  border-radius: 10px;
 }
 
 .linkFieldInput {
@@ -60,6 +59,9 @@
   border-width: 2px;
   border-radius: 5px;
   border-color: #86efac;
+  padding: 3px 10px;
+  display: inline-flex;
+  font-weight: 600;
 }
 
 .copyButton:hover {
@@ -67,12 +69,16 @@
   border-width: 2px;
   border-radius: 5px;
   border-color: #86efac;
+  display: inline-flex;
 }
 
-.copyButtonText {
-  color: black;
-  font-weight: 500;
+.copyIcon {
+  height: 22px;
+  width: 22px;
+  padding: 2px;
+  margin-right: 2px;
 }
+
 .footer {
   background: #001529;
   text-align: center;
@@ -83,4 +89,27 @@
 }
 .link:hover {
   color: #ff7875;
+}
+
+@media (min-width: 750px) {
+  .menubtn {
+    margin-top: 20px;
+    display: none;
+  }
+  .bigmenu {
+    margin-top: 10px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 750px) {
+  .bigmenu {
+    margin-top: 10px;
+    display: none;
+  }
+  .menubtn {
+    position: absolute;
+    margin-top: 20px;
+    right: 20px;
+  }
 }
