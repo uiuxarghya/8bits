@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "antd": "^4.18.9",
+    "antd": "^4.19.2",
     "axios": "^0.24.0",
     "mongodb": "^3.7.3",
     "next": "^12.1.0",
