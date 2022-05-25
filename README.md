@@ -1,85 +1,99 @@
-# **8bits Link Shortner**
+# **8bits Link Shortner** &nbsp; ![GitHub release (latest by date)](https://img.shields.io/github/v/release/uiuxarghya/8bits) [![Website](https://img.shields.io/website?url=https%3A%2F%2F8bits.vercel.app&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAZCAYAAADqrKTxAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADDSURBVHgB7ZRNDoIwEIXflHoPiInXEE+iJsbEW+gpiLgQT0K8Bv7APaCtpQV34wKjK96ieWnfl0wyMyX0KtIVAjqDkzJrzLZZawUGiHBLYm9FDBJzNqnNBaSq1koImXd8hulmwUL3YwaSy8HljdA3kO1TEzlXBzEeackmFQ6YNHsPRbvKXRapPShkIRj0WYky8cHaPVT4pC4roaUvKXBjFLFAO0Zaui0Ym/t3yPYJfsWNDvE85WxS6asdCpel9+Wvv7AXkbg7KN08dlIAAAAASUVORK5CYII=)](https://8bits.vercel.app)
 
 <div align="center">
-<img src="./docs/banner.svg" align="center">
-<br/>
-<br/>
-<p>
-    <b><h2>8bits LInk Shortener - A simple serverless url shortener.</h2></b>
-  </p>
-  <p>
-     Helps you shorten long links for easy sharing.
-  </p>
-  <p>
-
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/uiuxarghya/8bits)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2F8bits.vercel.app&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAZCAYAAADqrKTxAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADDSURBVHgB7ZRNDoIwEIXflHoPiInXEE+iJsbEW+gpiLgQT0K8Bv7APaCtpQV34wKjK96ieWnfl0wyMyX0KtIVAjqDkzJrzLZZawUGiHBLYm9FDBJzNqnNBaSq1koImXd8hulmwUL3YwaSy8HljdA3kO1TEzlXBzEeackmFQ6YNHsPRbvKXRapPShkIRj0WYky8cHaPVT4pC4roaUvKXBjFLFAO0Zaui0Ym/t3yPYJfsWNDvE85WxS6asdCpel9+Wvv7AXkbg7KN08dlIAAAAASUVORK5CYII=)](https://8bits.vercel.app)
-
-<p>
-    <sub>Built with ❤︎ by
-      <a href="https://github.com/uiuxarghya">uiuxarghya</a>
-    </sub>
-  </p>
-
-</div>
-
-<div align="center">
-  <a href="https://8bits.vercel.app/"><img src="./docs/demo.svg" alt="Screenshot" width="100%"></a>
+<img src=".github/images/banner.svg" align="center">
 </div>
 
 <br/>
 
-## **About**
+> A simple serverless url shortenener.
+> Built with ❤︎ by <a href="https://uiuxarghya.vercel.app">Arghya Ghosh</a>.
 
-A simple serverless url shortener made with [Mongo DB](https://mongodb.com) and [Vercel](https://vercel.com)
+<br/>
 
+## **📄 About**
 
-## **Demo**
+[8bits Link Shortener](https://8bits.vercel.app) is a simple serverless url shortener with MongoDB and Vercel. It helps you shorten long links for easy sharing.
 
-[8bits.vercel.app](https://8bits.vercel.app)
+## **🎯 Features**
 
-## [**Documentation**](https://github.com/uiuxarghya/8bits/wiki)
+- ⚡️ **Fast:** Paste long url and get/copy short url in less than a second.
+- ❤️ **Lightweight & Simple:** Crafted with minimalistic UI design.
+- 🔒 **Secure by Design:** Since it's serverless, it's secure.
 
-Check the detailed documentation at our [wiki](https://github.com/uiuxarghya/8bits/wiki) page.
+## **📖 Documentation**
 
-## **Features**
+To know in-depth about 8bits Link Shortener, please visit the [documentation](https://github.com/uiuxarghya/8bits/wiki).
 
-❤️ **Lightweight:** Crafted with minimalistic UI design.
+## **⚙️ Buitlt With**
 
-⚡️ **Fast:** Paste long url and get/copy short url in less than a second.
+- [Next.js](https://nextjs.org) - The React Framework
+  for Production.
+- [Ant Design](https://ant.design) - A design language for React.
+- [MongoDB](https://www.mongodb.com/) - A document-oriented database.
+- [Vercel](https://vercel.com/) - A hosting platform for modern web apps.
 
-## **Developing**
+## **✨ Getting Started**
 
-1. Create a `.env.local` file repository's root directory with your own keys.
+### **Prerequisites**
 
-Sample keys only works with the [production build](https://8bits.vercel.app).
+1. A basic understanding of the [Next.js](https://nextjs.org) framework is required.
+2. You should have [Vercel CLI](https://vercel.com/cli) installed.
+3. A MongoDB database is required.
+4. A Vercel account is required.
 
-### Browser based development environment
+### **Variables reference**
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/uiuxarghya/8bits)
+Please note that entered values are case-sensitive. Default values are provided as an example to help you figure out what should be entered.
 
-### Local development environment
+> On Vercel, you have to add the following Environment Variables to your project while deploying to production.
 
-1. [Clone this repo](https://help.github.com/en/articles/cloning-a-repository) with git.
-2. Install dependencies by running `npm install` within the directory that you cloned (probably `8bits`).
-3. Start the development server with `npm run dev`.
-4. Open development site by going to [`http://localhost:3000`](http://localhost:3000) in your browser.
+| Variable                 | Default Value                                       | Description                       |
+| ------------------------ | --------------------------------------------------- | --------------------------------- |
+| `MONGODB_URI`            | `mongodb+srv://cluster0.example.mongodb.net`        | MongoDB connection string.        |
+| `NEXT_PUBLIC_VERCEL_URL` | `https://8bits.vercel.app` or `https://example.com` | Vercel URL or your custom domain. |
 
-## **Deploy now with Vercel**
+### **Usage**
 
-<p/>
+#### **To develop locally**
+
+1. Clone the repository.
+
+```bash
+  $ git clone https://github.com/uiuxarghya/8bits.git
+  $ cd 8bits
+  $ npm install
+```
+
+2. Create a `.env.local` file repository's root directory with your own keys.
+
+```local
+  MONGODB_URI=""
+  NEXT_PUBLIC_VERCEL_URL=""
+```
+
+3. Run `vercel dev` to start the development server and open the browser at `http://localhost:3000`.
+
+### **OR**
+
+#### **Deploy now with Vercel**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&env=VERCEL_URL,MONGODB_URI&project-name=8bits&demo-title=8bits&demo-description=A%20simple%20serverless%20url%20shortener%20made%20with%20MongoDB%20and%20Vercel.&demo-url=https%3A%2F%2F8bits.vercel.app%2F)
 
-## **Changelog**
+> Provide the following environment variables to your Vercel project.
 
-See the [`CHANGELOG`](CHANGELOG.md) file for details.
+## **👍 Contribute**
 
-## **Authors**
+If you want to say thank you and/or support the active development of Fiber:
 
-### Lead Developers
+- Add a [GitHub Star](https://github.com/uiuxarghya/8bits/star) to the project.
+- Tweet about the project [on your Twitter](https://twitter.com/intent/tweet?text=8bits%20Link%20Shortener%20-%20A%20simple%20serverless%20URL%20shortener%20made%20with%20%40MongoDB%20and%20%40vercel.%20Designed%20to%20be%20%23simple%20%2C%20%23fast%20and%20%23secure%20with%20%23nextjs.%20%F0%9F%9A%80&url=https%3A%2F%2Fgithub.com%2Fuiuxarghya%2F8bits&via=uiuxarghya).
+- Write a review or tutorial on [Medium](https://medium.com), [Dev.to](https://dev.to) or personal blog.
+- Support the project by [donating a cup of coffee](https://www.buymeacoffee.com/uiuxarghya).
 
-- **[Arghya Ghosh](https://github.com/uiuxarghya)** - Author
+## **👦 Author**
+
+- **[Arghya Ghosh](https://github.com/uiuxarghya)** ([@uiuxarghya](https://twitter.com/uiuxarghya)) - Creator
 
 ## **License**
 
