@@ -23,7 +23,7 @@ export default function Home() {
                     extra={<Button type="primary"><a href="/">Back Home</a></Button>} />
             </Content>
             <Footer className={styles.footer}>
-                <a className={styles.link} href="https://uiuxarghya.netlify.app" target="_blank">uiuxarghya</a> | 8bits Link Shortener &copy; 2021
+                <a className={styles.link} href="https://uiuxarghya.vercel.app" target="_blank">uiuxarghya</a> | 8bits Link Shortener &copy; 2021
             </Footer>
         </Layout>
     );
