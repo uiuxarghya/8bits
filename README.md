@@ -9,8 +9,6 @@
 > A simple serverless url shortenener.
 > Built with ❤︎ by <a href="https://uiuxarghya.vercel.app">Arghya Ghosh</a>.
 
-<br/>
-
 ## **📄 About**
 
 [8bits Link Shortener](https://8bits.vercel.app) is a simple serverless url shortener with MongoDB and Vercel. It helps you shorten long links for easy sharing.
@@ -48,10 +46,10 @@ Please note that entered values are case-sensitive. Default values are provided 
 
 > On Vercel, you have to add the following Environment Variables to your project while deploying to production.
 
-| Variable                 | Default Value                                       | Description                       |
-| ------------------------ | --------------------------------------------------- | --------------------------------- |
-| `MONGODB_URI`            | `mongodb+srv://cluster0.example.mongodb.net`        | MongoDB connection string.        |
-| `NEXT_PUBLIC_VERCEL_URL` | `https://8bits.vercel.app` or `https://example.com` | Vercel URL or your custom domain. |
+| Variable               | Default Value                                   | Description                       |
+| ---------------------- | ----------------------------------------------- | --------------------------------- |
+| MONGODB_URI            | mongodb+srv://cluster0.example.mongodb.net      | MongoDB connection string.        |
+| NEXT_PUBLIC_VERCEL_URL | https://8bits.vercel.app or https://example.com | Vercel URL or your custom domain. |
 
 ### **Usage**
 
