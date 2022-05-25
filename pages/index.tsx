@@ -59,12 +59,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header>
-        <nav className={styles.nav} >
+        <nav className={styles.nav}>
           <a href="/">
             <div className={styles.logo} />
             <h1 className={styles.name}>Link Shortener</h1>
           </a>
-          <div><About /></div>
+          <div>
+            <About />
+          </div>
         </nav>
       </Header>
       <Content className={styles.content}>
@@ -136,7 +138,8 @@ export default function Home() {
         >
           @uiuxarghya
         </a>{" "}
-        | 8bits Link Shortener &copy; 2020 - {new Date().getFullYear()}. All rights reserved.
+        | 8bits Link Shortener &copy; 2020 - {new Date().getFullYear()}. All
+        rights reserved.
       </Footer>
     </Layout>
   );
