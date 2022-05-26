@@ -76,7 +76,7 @@ Please note that entered values are case-sensitive. Default values are provided 
 
 #### **Deploy now with Vercel**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&env=VERCEL_URL,MONGODB_URI&project-name=8bits&demo-title=8bits&demo-description=A%20simple%20serverless%20url%20shortener%20made%20with%20MongoDB%20and%20Vercel.&demo-url=https%3A%2F%2F8bits.vercel.app%2F)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fuiuxarghya%2F8bits&env=MONGODB_URI,NEXT_PUBLIC_VERCEL_URL&envDescription=Click%20on%20learn%20more%20to%20know%20more%20about%20the%20env%20variables&envLink=https%3A%2F%2Fgithub.com%2Fuiuxarghya%2F8bits%23variables-reference&project-name=8bits&repo-name=8bits&redirect-url=https%3A%2F%2Fgithub.com%2Fuiuxarghya%2F8bits&demo-title=8bits%20Link%20Shortener&demo-description=A%20simple%20serverless%20URL%20shortener%20made%20with%20Mongo%20DB%20and%20Vercel.&demo-url=https%3A%2F%2Fwww.8bits.vercel.app%2F&demo-image=https%3A%2F%2Fwww.8bits.vercel.app%2Fog.png)
 
 > Provide the following environment variables to your Vercel project.
 
