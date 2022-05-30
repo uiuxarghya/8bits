@@ -82,7 +82,7 @@ Please note that entered values are case-sensitive. Default values are provided 
 
 ## **👍 Contribute**
 
-If you want to say thank you and/or support the active development of Fiber:
+If you want to say thank you and/or support the active development of 8bits:
 
 - Add a [GitHub Star](https://github.com/uiuxarghya/8bits/star) to the project.
 - Tweet about the project [on your Twitter](https://twitter.com/intent/tweet?text=8bits%20Link%20Shortener%20-%20A%20simple%20serverless%20URL%20shortener%20made%20with%20%40MongoDB%20and%20%40vercel.%20Designed%20to%20be%20%23simple%20%2C%20%23fast%20and%20%23secure%20with%20%23nextjs.%20%F0%9F%9A%80&url=https%3A%2F%2Fgithub.com%2Fuiuxarghya%2F8bits&via=uiuxarghya).
