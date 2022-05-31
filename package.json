@@ -13,7 +13,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "antd": "^4.20.6",
+    "antd": "^4.20.7",
     "axios": "^0.27.2",
     "mongodb": "^3.7.3",
     "next": "^12.1.6",
