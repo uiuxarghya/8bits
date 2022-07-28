@@ -93,6 +93,6 @@ If you want to say thank you and/or support the active development of 8bits:
 
 - **[Arghya Ghosh](https://github.com/uiuxarghya)** ([@uiuxarghya](https://twitter.com/uiuxarghya)) - Creator
 
-## **License**
+## **⚖️ License**
 
 This project is licensed under the [Apache-2.0 License](https://opensource.org/licenses/Apache-2.0) - see the [`LICENSE`](LICENSE) file for details.
