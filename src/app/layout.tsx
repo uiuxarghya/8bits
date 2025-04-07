@@ -1,3 +1,4 @@
+import { Toaster } from "@/components/ui/sonner";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -24,7 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="scroll-smooth font-sans antialiased">{children}</body>
+      <body className="scroll-smooth font-sans antialiased">
+        {children}
+        <Toaster richColors />
+      </body>
     </html>
   );
 }
