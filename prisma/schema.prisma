@@ -26,6 +26,7 @@ model User {
 
   members     Member[]
   invitations Invitation[]
+  Link        Link[]
 
   @@unique([email])
   @@map("user")
@@ -89,6 +90,7 @@ model Organization {
   metadata    String?
   members     Member[]
   invitations Invitation[]
+  Link        Link[]
 
   @@unique([slug])
   @@map("organization")
@@ -118,4 +120,18 @@ model Invitation {
   user           User         @relation(fields: [inviterId], references: [id], onDelete: Cascade)
 
   @@map("invitation")
+}
+
+model Link {
+  id             String       @id @default(cuid()) @map("_id")
+  url            String
+  shortLink      String       @unique
+  userId         String
+  user           User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  createdAt      DateTime
+  updatedAt      DateTime
+
+  @@map("link")
 }
