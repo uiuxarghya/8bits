@@ -119,7 +119,7 @@ export default function CreateOrganizationForm() {
   }
 
   return (
-    <div className="flex h-screen w-full flex-col items-center justify-center bg-muted">
+    <div className="bg-muted flex h-screen w-full flex-col items-center justify-center">
       <Form {...form}>
         <h1 className="pb-6 text-2xl font-bold">
           Let&apos;s create your first workspace!
