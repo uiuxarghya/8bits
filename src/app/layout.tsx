@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   title: "8bits - Open Source URL Shortener and Link Management Platform",
   description:
     "Manage, organize, and track your links with 8bits, the open source URL shortener and link management software built for individuals and teams.",
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+  },
 };
 
 export default function RootLayout({
