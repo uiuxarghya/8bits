@@ -43,7 +43,7 @@ export default async function Home() {
           </div>
         </div>
       </section>
-      <section className="min-h-screen flex items-center justify-center">
+      <section className="flex min-h-screen items-center justify-center">
         <div className="mx-auto max-w-5xl py-32 sm:py-32 lg:pt-36">
           <div className="flex flex-col gap-y-6 text-center">
             <h1 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-4xl dark:text-white">
