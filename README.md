@@ -1,5 +1,5 @@
 <a href="https://8bits.vercel.app">
-  <img src="https://repository-images.githubusercontent.com/357342595/db99a67f-2208-4635-87f4-67398cfa211f">
+  <img src="https://repository-images.githubusercontent.com/357342595/8f3d45e8-47ab-4e1b-a324-b2f305380f7e">
 </a>
 
 <h3 align="center">8bits</h3>
@@ -52,7 +52,7 @@
 - Create short links with custom aliases.
 - Secure user authentication with [Better Auth](https://better-auth.com).
 - A simple and easy-to-use interface to manage links.
-- Support for both individual users and teams with workspace management (*Coming Soon*)
+- Support for both individual users and teams with workspace management (_Coming Soon_)
 
 ## 🛠️ Stack
 
@@ -81,22 +81,22 @@ Make sure you have the following installed:
 
 1. **Fork** the repository and **clone** it locally:
 
-    ```bash
-    git clone https://github.com/uiuxarghya/8bits.git
-    cd 8bits
-    ```
+   ```bash
+   git clone https://github.com/uiuxarghya/8bits.git
+   cd 8bits
+   ```
 
 2. **Install dependencies**:
 
-    ```bash
-    bun install
-    ```
+   ```bash
+   bun install
+   ```
 
 3. **Run the development server**:
 
-    ```bash
-    bun run dev
-    ```
+   ```bash
+   bun run dev
+   ```
 
 4. Open your browser and go to [http://localhost:3000](http://localhost:3000).
 
