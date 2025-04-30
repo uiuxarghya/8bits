@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
   },
+  openGraph: {
+    images: "/og.png",
+  },
 };
 
 export default function RootLayout({
