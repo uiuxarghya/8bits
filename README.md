@@ -110,6 +110,8 @@ We welcome contributions to 8bits! If you'd like to contribute, please follow th
 4. Test your changes locally.
 5. Create a pull request with a clear description of your changes.
 
+## 🧑🏻‍💻 Contributors
+
 <a href="https://github.com/uiuxarghya/8bits/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=uiuxarghya/8bits" />
 </a>
