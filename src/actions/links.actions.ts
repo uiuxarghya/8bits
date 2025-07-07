@@ -34,3 +34,11 @@ export async function getLinksByUserId(id: string) {
   });
   return links;
 }
+
+export async function getLinkDetailsByShortLink(shortLink: string) {
+  const link = await prisma.link.findUnique({
+    where: { shortLink },
+  });
+
+  return link;
+}
