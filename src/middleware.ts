@@ -6,14 +6,14 @@ type Session = typeof auth.$Infer.Session;
 
 const authRoutes = ["/login", "/register"];
 const passwordRoutes = ["/reset-password", "/forgot-password"];
-const protectedRoutes = ["/org", "/auth"];
+const protectedRoutes = ["/org", "/auth", "/dashboard", "/links", "/settings"];
 
 export default async function middleware(request: NextRequest) {
   const pathName = request.nextUrl.pathname;
   const isAuthRoute = authRoutes.includes(pathName);
   const isPasswordRoute = passwordRoutes.includes(pathName);
-  const isProtectedRoute = protectedRoutes.some((route) =>
-    pathName.startsWith(route),
+  const isProtectedRoute = protectedRoutes.some(
+    (route) => pathName === route || pathName.startsWith(`${route}/`),
   );
 
   const { data: session } = await betterFetch<Session>(
