@@ -42,3 +42,16 @@ export async function getLinkDetailsByShortLink(shortLink: string) {
 
   return link;
 }
+
+export async function incrementLinkClicks(linkId: string) {
+  const link = await prisma.link.update({
+    where: { id: linkId },
+    data: {
+      clicks: {
+        increment: 1,
+      },
+    },
+  });
+
+  return link;
+}

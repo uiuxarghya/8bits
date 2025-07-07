@@ -126,6 +126,7 @@ model Link {
   id             String       @id @default(cuid()) @map("_id")
   url            String
   shortLink      String       @unique
+  clicks         Int          @default(0)
   userId         String
   user           User         @relation(fields: [userId], references: [id], onDelete: Cascade)
   organizationId String
