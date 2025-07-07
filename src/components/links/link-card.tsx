@@ -19,6 +19,7 @@ type Props = {
     id: string;
     url: string;
     shortLink: string;
+    clicks: number;
   };
 };
 
@@ -87,7 +88,8 @@ export default function LinkCard({ link }: Props) {
       <div className="flex items-center gap-2">
         <Button variant="outline" size="sm" className="text-xs">
           <MousePointerClickIcon className="text-muted-foreground mr-1 h-3 w-3" />
-          0 Clicks
+          {link?.clicks || 0} {link?.clicks === 1 ? "click" : "clicks"}
+
         </Button>
         <Button variant="outline" className="h-8 w-8" size="icon">
           <EllipsisVerticalIcon className="text-muted-foreground h-4 w-4" />
