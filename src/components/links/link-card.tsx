@@ -12,6 +12,7 @@ import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
 import { toast } from "sonner";
+import { SHORT_LINK_DOMAIN } from "@/lib/constant";
 
 type Props = {
   link: {
@@ -35,7 +36,7 @@ export default function LinkCard({ link }: Props) {
 
   const handleCopy = () => {
     try {
-      navigator.clipboard.writeText("8bs.vercel.app/" + link.shortLink);
+      navigator.clipboard.writeText(SHORT_LINK_DOMAIN + "/" + link.shortLink);
       toast.success("Link copied to clipboard!");
       setIsCopied(true);
     } catch (error) {
@@ -57,7 +58,7 @@ export default function LinkCard({ link }: Props) {
       <div className="flex flex-1 flex-col justify-between">
         <div className="flex items-center justify-start gap-x-2">
           <h2 className="text-primary text-sm font-semibold">
-            {"8bs.vercel.app/" + link.shortLink}
+            {SHORT_LINK_DOMAIN + "/" + link.shortLink}
           </h2>
           <Button
             variant="ghost"
