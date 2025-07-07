@@ -1,4 +1,7 @@
-import { getLinkDetailsByShortLink } from "@/actions/links.actions";
+import {
+  getLinkDetailsByShortLink,
+  incrementLinkClicks,
+} from "@/actions/links.actions";
 import { SHORT_LINK_DOMAIN } from "@/lib/constant";
 
 export async function GET(
@@ -18,6 +21,8 @@ export async function GET(
   if (!linkDetails) {
     return new Response("Link not found", { status: 404 });
   }
+
+  await incrementLinkClicks(linkDetails.id);
 
   return Response.redirect(linkDetails.url, 302);
 }
