@@ -36,6 +36,7 @@ import { z } from "zod";
 import CustomLinkPreview from "@/components/links/custom-link-preview";
 
 import { createLink } from "@/actions/links.actions";
+import { SHORT_LINK_DOMAIN } from "@/lib/constant";
 
 const FormSchema = z.object({
   url: z.string().url().min(1, {
@@ -153,7 +154,7 @@ export default function ShortenLink({ userDetails }: { userDetails: User }) {
                     <FormControl>
                       <div className="flex rounded-md shadow-xs">
                         <span className="border-input bg-background text-muted-foreground -z-10 inline-flex items-center rounded-s-md border px-3 text-sm">
-                          8bs.vercel.app
+                          {SHORT_LINK_DOMAIN}
                         </span>
                         <Input
                           className="-ms-px rounded-s-none shadow-none"
