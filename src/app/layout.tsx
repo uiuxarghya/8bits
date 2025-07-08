@@ -1,5 +1,9 @@
 import { Toaster } from "@/components/ui/sonner";
-import { GOOGLE_ANALYTICS_ID } from "@/lib/constant";
+import {
+  GOOGLE_ANALYTICS_ID,
+  GOOGLE_SITE_VERIFICATION,
+  METADATA_BASE_URL,
+} from "@/lib/constant";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Silkscreen } from "next/font/google";
@@ -27,8 +31,9 @@ export const metadata: Metadata = {
   description:
     "Manage, organize, and track your links with 8bits, the open source URL shortener and link management software built for individuals and teams.",
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+    google: GOOGLE_SITE_VERIFICATION,
   },
+  metadataBase: METADATA_BASE_URL,
   openGraph: {
     images: "/og.png",
   },
